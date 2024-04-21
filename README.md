@@ -22,6 +22,8 @@ Download the `InstallCatechumenDemo.bat` file from GitHub.
 
 It's not necessary to clone or download the entire repo.  
 
+Make sure to extract the `InstallCatechumenDemo.bat` from the zip  file beforehand, if that's how you download it!
+
 If you want, you can just create a blank text file, paste the contents into it, and then save it as `InstallCatechumenDemo.bat`.  Make sure the file extension actually changes from `.txt` to `.bat` and it not actually `.bat.txt`.  
 
 Once downloaded, You can just double click on the `InstallCatechumenDemo.bat` file, or use the terminal to launch the script.

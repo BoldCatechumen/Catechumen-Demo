@@ -9,7 +9,6 @@ echo "3 - Google Drive"
 choice /C 123 /M "Pick where to download from "
 if %ERRORLEVEL% == 1 set URL=http://web.archive.org/web/20060327231729/http://www.n-lightning.com/files/catechumen.exe
 if %ERRORLEVEL% == 2 set URL=https://archive.org/download/Catechumen/Catechumen.exe
-if %ERRORLEVEL% == 3 set URL=https://drive.google.com/file/d/1kQSnmdKsMYpIiThLlwRRpgjayl_7DqV3/view?usp=drive_link
 echo "Downloading %URL%"
 curl -LO %URL%
 echo.
